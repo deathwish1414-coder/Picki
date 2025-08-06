@@ -8,7 +8,7 @@ from aiogram.filters import Command
 import asyncio
 import os
 
-API_TOKEN = os.getenv("8204097621:AAFdFSZ0KACpsJkwHPT6alNrQ0ANQcZ-wbM")  # Токен будет браться из переменной окружения
+API_TOKEN = os.getenv("API_TOKEN")  # Токен будет браться из переменной окружения
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
